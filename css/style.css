@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* General */
+.body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0px auto;
+}
+
+/* header */
+.header {
+    position: sticky;
+    top: 0px;
+    background-color: #ff9999;
+    z-index: 1;
+    color: black;
+}
+
+.brand {
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.brandimg {
+    width: auto;
+    height: 55px;
+}
+
+.cont1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.name {
+    font-size: 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    color: black;
+
+}
+.nav a:hover{
+    color: white;
+}
+
+.contact a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.contact {
+    background-color: #e13939;
+    padding: 5px 10px;
+    color: black;
+    border-radius: 25px;
+
+}
+.contact:hover{
+    background-color: white;
+    border: 2px solid rgb(225, 57, 57);
+    color: black;
+}   
+
+/* section1 here */
+.Div-img {
+    width: auto;
+    height: 376px;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+}
+
+.head2 {
+    color: rgb(225, 57, 57);
+    font-size: 36px;
+
+}
+
+.head3 {
+    font-size: 50px;
+    line-height: 0.7;
+
+}
+.head2-1 {
+    color: rgb(225, 57, 57);
+    font-size: 75px;
+}
+
+.imgtext {
+    margin-left: 30px;
+}
+
+.Para {
+    font-size: 20px;
+    padding: 20px 0px;
+
+}
+
+a.btn1 {
+    text-decoration: none;
+    background-color: rgb(225, 57, 57);
+    padding: 10px 15px;
+    line-height: 5;
+    font-weight: bold;
+    color: black;
+    border-radius: 25px;
+}
+
+a.btn1:hover{
+    background-color: white;
+    border: 2px solid rgb(225, 57, 57);
+    color: black;
+}
+
+.bgsection {
+    background-color: #ffe6e6;
+    position: relative;
+}
+
+.halfcircle {
+    position: absolute;
+    bottom: -15px;
+    width: 100%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    height: 50px;
+    background-color: white;
+
+}
+
+/* section2 here */
+.about {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
