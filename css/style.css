@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
 }
@@ -7,6 +7,8 @@
 .body {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    margin: 0px;
+    padding: 0px;
 
 }
 
@@ -20,6 +22,7 @@
     position: sticky;
     top: 0px;
     background-color: #ff9999;
+    padding-bottom: 10px;
     z-index: 1;
     color: black;
 }
@@ -37,7 +40,7 @@
 
 .cont1 {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-around;
 
 }
@@ -48,7 +51,7 @@
 
 .nav a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
     padding: 10px;
     color: black;
 
@@ -59,7 +62,7 @@
 
 .contact a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
     color: black;
     font-weight: bold;
     padding: 10px;
@@ -135,7 +138,7 @@ a.btn1:hover{
 }
 
 .bgsection {
-    background-color: #ffe6e6;
+    background-color: #bd8e8e;
     position: relative;
 }
 
@@ -156,4 +159,29 @@ a.btn1:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.imgabt {
+    position: relative;
+    /* background-image: url("images/How-Much-Is-Samantha-Making-Through-Her-Insta-Account.jpg"); */
+}
+.img-fluid{
+    width: 100%;
+}
+.abtext{
+    position: absolute;
+    width: 400px;
+    top: 50%;
+    left: 34%;
+}
+.imgrelative{
+    position: relative;
+}
+.imgrelative::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #c17f7f , #0000002b);
+    left: 0;
+    top: 0;
 }
